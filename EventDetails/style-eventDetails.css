@@ -1,0 +1,28 @@
+/* Center the image */
+#invitationImage {
+    display: block;
+    padding:4%;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Make the image responsive */
+  @media (max-width: 768px) {
+    /* Adjust the max-width value as needed for your design */
+    #invitationImage {
+      padding:4%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+h1 {
+    text-align: center;
+  }
+
+body{
+    background-color: rgb(234, 222, 208);
+    padding:10%;
+}
+

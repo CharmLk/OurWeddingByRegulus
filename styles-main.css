@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+.main-wedding-pic{
+    text-align:center;
+}
+
+
+.main-images {
+    max-width:60%;
+    max-height: 600px;
+    height:auto;
+}
+
+.main-hyperlink-container{
+    text-align:center;
+}
+
+.main-hyperlink-container a {
+    margin-top: 20px;
+    margin-right: 20px; /* Adjust the value to increase or decrease the space */
+}
+
+.countdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  background-image: url(./CountdownBackGround.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  width: 1100; 
+  height: 700px; 
+}
+
+.time {
+  transform: scale(2);
+  padding: 32px;
+}
+
+body {
+  background-color: rgb(234, 222, 208);
+}
+
+@media (max-width: 767px) {
+  .countdown {
+    width: 390px; 
+    height: 300px; 
+  }
+  
+  .time {
+    transform: scale(1); /* Set the desired scale value for smaller size */
+    padding: 10px; /* Set the desired padding for smaller size */
+  }
+}
+
+@media (min-width: 1300px) {
+  .countdown {
+    width: 1400px; 
+    height:1300px; 
+    background-position: 10px;
+  }
+  
+  .time {
+    transform: scale(2); /* Set the desired scale value for smaller size */
+    padding: 32px; /* Set the desired padding for smaller size */
+  }
+}

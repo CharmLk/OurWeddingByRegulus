@@ -1,0 +1,29 @@
+.carousel-image {
+  width: 100%;
+  height: auto; /* Adjust the height property */
+
+  /* Additional styles to maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.row.featurette {
+  align-items: flex-start;
+}
+
+.carousel-inner .carousel-item {
+  height: 500px; /* Adjust the height as needed */
+}
+
+@media (min-width: 992px) { /* Apply styles on screens larger than or equal to 992px (lg breakpoint) */
+  .p-4.p-md-5.mb-4.rounded.text-body-emphasis.bg-body-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-4.p-md-5.mb-4.rounded.text-body-emphasis.bg-body-secondary .col-lg-6 {
+    width: 100%; /* Adjust the width as desired */
+  }
+}
